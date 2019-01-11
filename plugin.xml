@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-rtmp-ios" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>CordovaRTMPiOS</name>
+    <js-module name="CordovaRTMPiOS" src="www/CordovaRTMPiOS.js">
+        <clobbers target="window.RTMPiOS" />
+    </js-module>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="CordovaRTMPiOS">
+                <param name="ios-package" value="CordovaRTMPiOS" />
+            </feature>
+        </config-file>
+        
+        <source-file src="src/ios/CordovaRTMPiOS.swift" />
+    </platform>
+</plugin>

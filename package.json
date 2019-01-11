@@ -1,0 +1,33 @@
+{
+    "name": "cordova-rtmp-ios",
+    "version": "0.1.18",
+    "description": "Cross-platform plugin for Cordova / PhoneGap to to easily stream RTMP. Available for iOS ONLY.",
+    "cordova": {
+      "id": "cordova-rtmp-ios",
+      "platforms": [
+        "ios"
+      ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/disono/cordova-rtmp-ios.git"
+    },
+    "keywords": [
+      "cordova",
+      "phonegap",
+      "rtmp",
+      "ios"
+    ],
+    "engines": [
+      {
+        "name": "cordova",
+        "version": ">=3.0.0"
+      }
+    ],
+    "author": "Archie Disono",
+    "license": "Apache 2.0",
+    "bugs": {
+      "url": "https://github.com/disono/cordova-rtmp-ios"
+    },
+    "homepage": "https://github.com/disono/cordova-rtmp-ios/blob/master/README.md"
+  }
